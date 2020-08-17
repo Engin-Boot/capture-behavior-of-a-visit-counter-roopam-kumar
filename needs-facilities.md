@@ -3,7 +3,7 @@
 Scenario: Report visitor trends during a week of operation
 
   Given a device which will record the visitor count without error
-  When I analyse the visitor count for the week of operation
+  When I analyze the visitor count for the week of operation
   Then I will get the trend in the report
 
 Scenario: Alert when seating capacity is full
