@@ -10,4 +10,4 @@ Scenario: Alert when seating capacity is full
 
   Given a device which will record seating capacity in real time
   When the seating capacity reaches its maximum limit
-  Then an alert is generated
+  Then a device generates the alert
