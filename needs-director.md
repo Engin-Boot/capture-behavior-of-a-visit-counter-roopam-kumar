@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given counter which correctly counts each patient visit
+  Given counter which counts each patient visit without error
   When I click on counter at any time of day
   Then I get the number of patients visited till that point in time
 
